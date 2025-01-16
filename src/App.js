@@ -5,13 +5,13 @@ import './style.css'
 import {Button} from './class-components'
 import {Calculator2} from './Calculator';
 import {Eventdata} from './event-data'
+import RefsFunc from './refs-func'
 
 function App() {
   return (
     <>
-        <Eventdata/>
-        {/* <h2>DeveloperThai.com</h2>
-        <div className='title'>React & React Native</div> */}
+        {/* <Eventdata/> */}
+        <RefsFunc />
     </>
   );
 }
