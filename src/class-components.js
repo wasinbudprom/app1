@@ -20,3 +20,17 @@ export default class Calendar extends Component {
     }
 
 }
+
+export class Button extends Component{
+    showAlert(msg){
+        alert(msg)
+    }
+
+    onClickButtonOK=()=>{
+        this.showAlert("Hello")
+    }
+
+    render(){
+        return <button onClick={this.onClickButtonOK}>OK</button>
+    }
+}
