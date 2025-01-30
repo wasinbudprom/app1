@@ -7,13 +7,15 @@ import {Calculator2} from './Calculator';
 import {Eventdata} from './event-data'
 import RefsFunc from './refs-func'
 import MessageBox from './state-func';
+import { userContext } from './context';
+import Content from './context-content';
 
 function App() {
   return (
     <>
-        
-        <MessageBox/>
-        
+      <userContext.Provider value={'Wasin Budprom'}>
+        <Content />
+      </userContext.Provider>  
     </>
   );
 }
