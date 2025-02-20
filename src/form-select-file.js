@@ -50,7 +50,7 @@ export default function FormSelectFile() {
             </div>
             <div className='form-group mb-3'>
                     <label htmlFor='file' className='form-label'></label>
-                    <input type='file' id="file" accept="image/" className='form-control form-control-sm' ref={inputFile} multiple/>
+                    <input type='file' id="file" accept="image/*" className='form-control form-control-sm' ref={inputFile} multiple/>
             </div>
 
             <div className='text-center mt-4'>
